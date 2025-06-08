@@ -11,9 +11,11 @@ public:
     void reset();
     bool isActive() const;
     bool intersects(const sf::Vector2f& point) const;
+    sf::Vector2f getPosition() const;
+    float getRadius() const;
 
 private:
-    sf::CircleShape effect;
+    mutable sf::CircleShape effect; // Добавлен mutable
     float maxRadius;
     float currentRadius;
     float duration;

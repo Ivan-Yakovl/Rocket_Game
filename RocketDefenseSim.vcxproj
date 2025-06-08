@@ -145,6 +145,7 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="PredictionSystem.cpp" />
     <ClCompile Include="Rocket.cpp" />
+    <ClCompile Include="RocketLauncher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AirDefense.h" />
@@ -153,6 +154,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="PredictionSystem.h" />
     <ClInclude Include="Rocket.h" />
+    <ClInclude Include="RocketLauncher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

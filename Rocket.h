@@ -12,6 +12,8 @@ public:
     bool isMoving() const;
     sf::Vector2f getPosition() const;
     float getCurrentTime() const;
+    float getRadius() const { return sprite.getRadius(); }
+
 
 private:
     sf::CircleShape sprite;

@@ -2,10 +2,10 @@
 
 Cannon::Cannon(const sf::Vector2f& position) {
     base.setPointCount(4);
-    base.setPoint(0, { 0, 0 });
-    base.setPoint(1, { 40, 0 });
-    base.setPoint(2, { 30, 40 });
-    base.setPoint(3, { 10, 40 });
+    base.setPoint(0, { 10, 40 });
+    base.setPoint(1, { 30, 40 });
+    base.setPoint(2, { 40, 0 });
+    base.setPoint(3, { 0, 0 });
     base.setPosition(position);
     base.setFillColor(sf::Color(150, 150, 150));
 
